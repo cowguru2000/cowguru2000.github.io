@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>JOE</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript">
+$(function() {
+  $('.bottom img').click(function() {
+    var next = $(this).parent('.bottom').parent('.page').next('.page');
+    $('html,body').animate({
+      scrollTop: next.offset().top,
+    }, 500);
+    return false;
+  });
+});
+  </script>
+</head>
+<body>
+
+<div class="page" id="1">
+<h1>Joe</h1>
+<p>That's me!</p>
+<div class="bottom"><img src="img/chevron-down.png" /></div>
+</div>
+
+<div class="page" id="2">
+<h1>Pro</h1>
+<p>
+<div style="float: left; width: 50%;">sup</div>
+<div style="float: left; width: 50%;">sup</div>
+</p>
+</div>
+
+<div class="page" id="3">
+<h1>Show</h1>
+</div>
+
+</body>
+</html>
