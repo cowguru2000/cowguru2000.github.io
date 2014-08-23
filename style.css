@@ -9,6 +9,16 @@ body {
   background-image: url(img/lite_textured_paper.png);
 }
 
+a {
+  color: #22F;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #99F;
+}
+
 h1, h2, h3, p, ul {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
