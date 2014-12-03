@@ -114,6 +114,16 @@ ul.thingsiknow li {
   transition: all 0.3s;
 }
 
+ul.thingsiknow li.experienced {
+  background-color: #555;
+}
+ul.thingsiknow li.proficient {
+  background-color: #777;
+}
+ul.thingsiknow li.intermediate {
+  background-color: #999;
+}
+
 ul.thingsiknow li:hover {
   color: #333;
   background-color: #EFEFEF;
