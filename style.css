@@ -145,7 +145,7 @@ ul.thingsiknow li:hover {
   opacity: 0.9;
 }
 
-@media all and (max-width: 800px) {
+@media screen and (max-width: 800px), @media screen and (max-device-width: 800px) {
   .column {
     float: none;
     width: 90%;
